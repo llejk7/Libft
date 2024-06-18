@@ -6,7 +6,7 @@
 /*   By: krenken <krenken@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/17 12:47:22 by krenken           #+#    #+#             */
-/*   Updated: 2024/06/18 17:46:51 by krenken          ###   ########.fr       */
+/*   Updated: 2024/06/18 18:13:39 by krenken          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,7 +85,7 @@ char	**ft_split(char const *s, char c)
 	return (split);
 }
 
-int main (void)
+/*int main (void)
 {
 	char *test = "ckjellckerstinccordc";
 	char **res = ft_split(test, 'c');
@@ -96,4 +96,4 @@ int main (void)
 		printf("%s", *res[i]);
 		i++;
 	}
-}
+}*/
